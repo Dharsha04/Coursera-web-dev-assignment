@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
+
+border: none;
+background-color: yellowgreen;
+}
+.navbar-header .navbar-brand{
+	color: black;
+}
+.navbar-header .navbar-brand:hover{
+	color: red;
+}
+body{
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.glyphicon{
+	font-size: 30px;
+	color: black; 
+}
+
+.center{
+	width: 90%;
+}
+.container
+{
+	background-color: grey;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+.text-center{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+}
+#myNavbar ul li a {
+	color: black;
+}
+.navbar-brand{
+font-size: 30px;	
+}
