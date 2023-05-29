@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+#Unit-Converter{
+    height: 700px;
+    width: 650px;
+    padding-right: 190px;
+    border-color: cadetblue;
+    border-radius: 50px;
+    background-color: cadetblue;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+    position: relative;
+    left: 28%;
+}
+@media (max-width: 730px){
+    #Unit-Converter{
+    transform: translate(-25%,0%);
+    }
+}
+#Mass{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#Mass p{
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: brown;
+}
+#Length{
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+#Length p{
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 17.5px;
+    color: brown;
+}
+#Time{
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+#Time p{
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: brown;
+}
+input{
+    border-radius: 8px;
+    border-style: solid;
+    padding: 5px;
+    display: block;
+    margin-left: 220px;
+    font-size: 16px;
+    font-weight: bold;
+}
+::placeholder{
+    color: brown;
+    font-weight: bold;
+}
+span{
+    color: darkgreen;
+    display: block;
+    margin-left: 300px;
+    margin-bottom: 8px;
+}
+select{
+    margin-top: 5px;
+    margin-left: 220px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border-color: black;
+    padding: 1px;
+}
