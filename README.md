@@ -1,2 +1,4 @@
-# Coursera-web-dev-assignment
+
 WEB DEVELOPMENT ASSIGNMENT
+COURSERA WEB PROJECT
+
